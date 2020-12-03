@@ -32,7 +32,6 @@ body{
     padding-top: 15px;
     width: 100%;
     margin-left: 10cm;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -64,20 +63,25 @@ body{
     background-size: cover;
 
 }
-#slika1{
-    height: 260px;
-     width:45%;
-     opacity: 0.7;
-       
-     padding-top: 25px;
-    position: relative;
-    left:25px ;
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50px 50px; 
+    grid-gap: 10px;
+    border-radius: 10px;
+    align-content: center;
+    padding: 10px;
+  }
+#naslovKontakt{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: steelblue;
 
 }
-#slika2{
-    height: 100px;
-    width: 100px;
-   right: 100px;;
+
+.podaci{
+    text-align: center;
 }
 .panel{
     background-image: url("../slike/pozadina.jpg");
@@ -85,36 +89,41 @@ body{
     width: 80%;
     margin: 0 auto;
 }
-#tekst2{
-    padding: 10px 20px;
-    color:black;
+#box1{
+    border-radius: 10%;
+    border-style: double;
+    padding-left: 10px;
+}
+#box2{
+    border-radius: 10%;
+    border-style: double;
+}
+#box3{
+    border-radius: 10%;
+    border-style: double;
+}
+#boxEmail{
+    border-radius: 10%;
+    border-style: double;
 }
 
-#tekst1{
-    padding: 10px 20px;
+#datum{
+    text-align: center;
 }
-h2{
-    color: midnightblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
+#poruka{
+    border-style: solid;
+    width: 8cm;
+    height: 4cm;
 }
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#dugme{
+    margin-left: 4cm;
+    border-radius: 10%;
+    height: 1cm;
+    width: 4cm;
 }
-.naslovKontakt{
-   text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.dugmence{
+    padding-left: 330px;
 }
-.kontaktForma{
-    background-image: url("../slike/pozadina.jpg");
-    height: 360px;
-    width: 460px;
-    opacity: 0.9;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0 auto;
-   
-}
-#slika3{
-    width: 100px;
-    height: 100px;
+.dno{
+    text-align: center;
 }
