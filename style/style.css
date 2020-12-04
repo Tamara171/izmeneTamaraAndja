@@ -1,5 +1,6 @@
 body{
-    background-image:url(../slike/pozadinaPocetne.png);
+    background-image:url(../slike/1.jpg);
+    background-repeat: no-repeat;
     margin: 10px;
     padding: 0px;
     background-size: cover;
@@ -75,12 +76,13 @@ body{
 
 }
 #slika2{
-    height: 100px;
-    width: 100px;
-   right: 100px;;
+    height: 150px;
+    width: 150px;
+    
 }
 .panel{
-    background-image: url("../slike/pozadina.jpg");
+    background-image: url(../slike/1.jpg);
+    background-repeat: no-repeat;
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -115,6 +117,26 @@ p{
    
 }
 #slika3{
-    width: 100px;
-    height: 100px;
+    
+    width: 200px;
+    height: 150px;
+}
+.footer1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+    padding: 0px;
+    margin-left: 50px;
+    display: grid;
+    width:50wh;
+    padding: 100px;
+    justify-content: space-around;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.futer1-lijevo{
+ justify-content: center;
+ padding: 500px;
+ margin-left: -300px;
 }

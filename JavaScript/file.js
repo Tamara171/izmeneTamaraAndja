@@ -8,17 +8,20 @@ function prikaziVreme() {
     document.getElementById("datum").innerHTML = d + ":" + d1 + ":" + d2;
     var t = setTimeout(prikaziVreme, 500);*/
 }   
-function skini1(){
-    document.getElementById("slika1").style.opacity=0.7;
-}
-function prelaz1(){
-    document.getElementById("slika1").style.opacity=1;
-}
 function skini2(){
-    document.getElementById("slika2").style.opacity=0.7;  
+    document.getElementById("slika2").style.opacity=0.8;
 }
+
 function prelaz2(){
     document.getElementById("slika2").style.opacity=1;
+}
+
+function skini3(){
+    document.getElementById("slika3").style.opacity=0.8;  
+}
+
+function prelaz3(){
+    document.getElementById("slika3").style.opacity=1;
 }
 function kontakt(){
     

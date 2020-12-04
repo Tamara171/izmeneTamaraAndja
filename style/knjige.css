@@ -3,6 +3,7 @@ body{
     margin: 10px;
     padding: 0px;
     background-size: cover;
+   
 
 }
 .zaglavlje{
@@ -80,7 +81,7 @@ border-radius: 10px;
    border-radius: 30px;
    align-content: center;
     background-image: url("../slike/pozadina.jpg");   
-     border: 1px solid rgba(0, 0, 0, 0.8);
+     border: 1px solid rgba(218, 164, 164, 0.8);
     padding: 20px;
     font-size: 20px;
     text-align: center;
@@ -88,3 +89,5 @@ border-radius: 10px;
   .grid-container img{
     align-content: center;
   }
+
+  
